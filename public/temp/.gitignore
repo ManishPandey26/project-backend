@@ -117,4 +117,17 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Ignore system files
+.DS_Store
+.bash_history
+
+# Ignore Android files
+.android/
+adbkey
+adbkey.pub
+debug.keystore
+
+# Ignore VS Code settings
+.vscode/
+
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
